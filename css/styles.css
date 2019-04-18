@@ -1,0 +1,102 @@
+body{
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  /* width: 1440px; */
+}
+
+/* headers */
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* title section */
+.title-content{
+  margin-top: 3rem;
+}
+.bg-img{
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index:-1;
+  max-width: 100%;
+  height: auto;
+}
+.build-community-describtion{
+  padding-left: 0.8rem;
+}
+.try-btn{
+  background-color: #fff;
+  border: 2px;
+  border-radius: 20px;
+  box-shadow: 3px 5px 5px hsl(208, 11%, 55%);
+  font-size: 14px;
+  width: 10rem;
+  padding: 1%;
+  text-align: center;
+}
+
+.illustration-mockups{
+  width: 40rem;
+}
+
+/* testmonials section  */
+#testmonials{
+  margin: 10% 7% 10%;
+}
+.testmonials-img{
+  max-width: 100%;
+  height: auto;
+  padding: 5%;
+}
+#testmonials .row{
+    border: 1px solid #fff;
+  border-radius: 7px;
+  margin: 7% auto;
+  box-shadow: 3px 5px 5px hsl(208, 11%, 55%);
+}
+.testmonials-text{
+  padding:11% 7%;
+}
+.testmonials-describtion{
+  font-size: 16px;
+  color: hsl(208, 11%, 55%);
+}
+
+/* register section */
+  #register{
+    background-color: #fff;
+      border: 5px solid #fff;
+      border-radius: 10px;
+      margin: 7% auto;
+      box-shadow: 1px 1px 2px hsl(208, 11%, 55%);
+      padding: 3% 5%;
+      margin: 4% 25% -9%;
+      width: 50%;
+      z-index: 2;
+      position: relative;
+  }
+  .register-quetion{
+    margin-bottom: 7%;
+  }
+  .register-btn{
+    background-color: #d82ebc;
+    border: 2px;
+    border-radius: 20px;
+    box-shadow: 3px 5px 5px hsl(208, 11%, 55%);
+    font-size: 14px;
+    color: #fff;
+    width: 22rem;
+    padding: 3%;
+    text-align: center;
+}
+
+/* footer section */
+#footer{
+  background: linear-gradient(to right, rgb(192, 72, 72), rgb(72, 0, 72));
+  font-size: 14px;
+  position: relative;
+  z-index: 1;
+  padding: 10% 10% 5%;
+}
